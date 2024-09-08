@@ -1,0 +1,408 @@
+/* NAVBAR SUB-CSS START FROM HERE  */
+
+
+.NavbarMainSection {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+}
+
+.navSection {
+    padding: 2.5rem 0 1rem 0;
+    background-color: var(--secondary-color);
+    align-items: center;
+    display: flex;
+}
+
+#navbarContainer {
+    display: flex;
+    align-items: center;
+}
+
+#navHead {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#navHeadAdmin2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#navHeadAdmin {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Logo img {
+    width: 12rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.contactNum .material-symbols-outlined {
+    color: var(--primary-color);
+    margin-right: .8rem;
+}
+
+.contactNum {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.navInput input::placeholder {
+    color: #757575;
+}
+
+.navInput input {
+    width: 40rem;
+    height: 3.5rem;
+    padding-left: 1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    outline: none;
+    border-radius: .5rem;
+    border: .1rem solid var(--primary-color);
+    color: #757575;
+}
+
+.Lists {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.links {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.links:hover #adminIcon {
+    transition: 5s ease;
+    font-variation-settings:
+        'FILL' 1;
+}
+
+/* NAVBAR LIST PAGE START FROM HERE */
+
+.navMenuSection {
+
+    background-color: var(--bg);
+}
+
+#menuListContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuList:hover {
+    color: #757575;
+    border-bottom: .2rem solid var(--primary-color);
+}
+
+.menuList {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 1.5rem 0;
+    border-bottom: .2rem solid transparent;
+}
+
+#navOfferConatiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navOfferConatiner img {
+    width: 8rem;
+    height: auto;
+    border-radius: .5rem;
+}
+#NavListContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EYEGLASSES HOVER SECTION START */
+#NavListContent:hover .HoverSection5 {
+    transition: .3s ease;
+    display: flex;
+}
+
+.HoverSection5 {
+    position: absolute;
+    top: 12.8rem;
+    display: none;
+    left: 40%;
+}
+#NavListContent:hover .HoverSection4 {
+    transition: .3s ease;
+    display: flex;
+}
+
+.HoverSection4 {
+    position: absolute;
+    top: 12.8rem;
+    display: none;
+    left: 30%;
+}
+#NavListContent:hover .HoverSection3 {
+    transition: .3s ease;
+    display: flex;
+}
+
+.HoverSection3 {
+    position: absolute;
+    top: 12.8rem;
+    display: none;
+    left: 25%;
+}
+#NavListContent:hover .HoverSection2 {
+    transition: .3s ease;
+    display: flex;
+}
+
+.HoverSection2 {
+    position: absolute;
+    top: 12.8rem;
+    display: none;
+    left: 15%;
+}
+#NavListContent:hover .HoverSection {
+    transition: .3s ease;
+    display: flex;
+}
+
+.HoverSection {
+    position: absolute;
+    top: 12.8rem;
+    display: none;
+    left: 5%;
+}
+
+#HoverContainer {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    background-color: #fff;
+    width: 80rem;
+    padding: 5rem 0;
+    border-radius: 1rem;
+}
+
+#HoverContentHead {
+    display: flex;
+    justify-content: center;
+}
+
+.HoverContentHeading {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.HoverContentListMenu {
+    margin-top: 2rem;
+}
+
+.HoverContentList {
+    margin: 1rem 0;
+}
+
+.HoverList:hover {
+    color: var(--primary-color);
+    transition: .3s ease;
+}
+
+.HoverList {
+    font-size: 1.3rem;
+    color: var(--fade-color);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* HAMBURGUR MENU START FROM HERE */
+
+.hamburgerSection {
+    position: absolute;
+    left: 23%;
+    top: 10rem;
+    display: none;
+}
+
+.hamburgerContainer {
+    width: 300px;
+    height: 480px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.hamburgerHead {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg);
+    padding: 30px 10px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hamburgerHeadContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adminLogo {
+    display: flex;
+    align-items: center;
+}
+
+.adminLogo img {
+    width: 50px;
+    height: auto;
+}
+
+.adminTitleHeading {
+    font-size: 17px;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.adminTitlePara {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--fade-color);
+    line-height: 15px;
+}
+
+.adminHeadTitle {
+    margin-left: 15px;
+}
+
+.adminHeadBtnHead {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.adminHeadBtn:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+    transition: .3s ease;
+}
+
+.adminHeadBtn {
+    padding: 10px 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hamburgerMenuContainer {
+    padding: 30px 10px 20px 10px
+}
+
+.hamburgerListMenu:hover .hamburgerList {
+    color: #fff;
+    transition: .3s ease;
+}
+
+.hamburgerListMenu:hover {
+    background-color: var(--primary-color);
+    transition: .3s ease;
+}
+
+.hamburgerListMenu {
+    padding: 12px 0;
+    border-bottom: .1rem solid var(--fade-color);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.hamburgerList {
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--primary-color);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.responsiveAdminContainer{
+    display: none;
+    justify-content: center;
+}
+
+#navHeadAdminID{
+    display: flex;
+    justify-content: center;
+}
+.responsiveLogo{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #navbarContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .Logo img {
+        width: 17rem;
+        height: auto;
+    }
+    #navOfferConatiner {
+        justify-content: center;
+    }
+
+    .contactNum {
+        display: none;
+    }
+
+    .navInput {
+        display: none;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .navSection {
+        padding: 2.5rem 0 2rem 0;
+    }
+    #menuListID {
+        display: none;
+    }
+    .responsiveLogo:hover .hamburgerSection{
+        display: flex;
+    }
+    #navHeadAdmin2{
+        display: none;
+    }
+    .responsiveAdminContainer{
+        display: flex;
+    }
+    .responsiveAdminLogo{
+        display: flex;
+        justify-content: space-evenly;
+        width: 40rem;
+    }
+    .HoverSection ,.HoverSection2 ,.HoverSection3 ,.HoverSection4 ,.HoverSection5{
+        visibility: hidden;
+    }
+}

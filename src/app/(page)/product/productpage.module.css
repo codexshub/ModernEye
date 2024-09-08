@@ -1,0 +1,15 @@
+
+
+.ProductPageSection{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productPageHead{
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}

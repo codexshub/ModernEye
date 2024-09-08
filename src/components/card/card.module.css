@@ -1,0 +1,134 @@
+
+
+.cardSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.cardHeading{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    justify-content: center;
+    display: flex;
+}
+.swiperCardContainer{
+    border-radius: 1rem;
+    padding: 1.5rem 1rem 2.5rem 1rem;
+    width: 30rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.cardLink{
+    text-decoration: none;
+}
+.swiperCardSection ,.SwiperCotent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SwiperCotent{
+    margin: 3rem 0;
+}
+#wishlistCard:hover{
+    transition: .3s ease;
+    font-variation-settings:
+    'FILL' 1;
+}
+#wishlistCard{
+    color: red;
+    font-size: 2.8rem;
+}
+.wishlistIcon{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.swiperCardContainer:hover .cardSwiperImg{
+    background-image: url("../Image/card-1-1.webp");
+    transition: .3s ease;
+}
+.cardSwiperImg{
+    background-image: url("../Image/card-1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+}
+.swiperCardContainer:hover .cardSwiperImg2{
+    background-image: url("../Image/card-2-1.webp");
+    transition: .3s ease;
+}
+.cardSwiperImg2{
+    background-image: url("../Image/card-2.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+}
+.swiperCardContainer:hover .cardSwiperImg3{
+    background-image: url("../Image/card-3-1.webp");
+    transition: .3s ease;
+}
+.cardSwiperImg3{
+    background-image: url("../Image/card-3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+}
+.swiperCardContainer:hover .cardSwiperImg4{
+    background-image: url("../Image/card-4-1.webp");
+    transition: .3s ease;
+}
+.cardSwiperImg4{
+    background-image: url("../Image/card-4.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+}
+.swiperCardContainer:hover .cardSwiperImg5{
+    background-image: url("../Image/card-5-1.webp");
+    transition: .3s ease;
+}
+.cardSwiperImg5{
+    background-image: url("../Image/card-5.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+}
+.cradSwiperHead{
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+.cardBrandName{
+    color: #ef8e34;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.cardTitle{
+    font-size: 1.5rem;
+    color: var(--fade-color);
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.cardSize{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.cardPrice{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+    margin-top: .5rem;
+}
+.cardTax{
+    color: var(--fade-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}

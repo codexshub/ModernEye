@@ -1,0 +1,49 @@
+
+
+
+/* SUB NAVBAR SECTION START FROM HERE */
+
+.subNavbarSection{
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f9;
+}
+.subNavbarHeading{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.subNavbarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+#subNavbarMenuList{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 5rem;
+    border-radius: 2.5rem;
+    
+}
+#subNavlink:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: .3s ease;
+}
+#subNavlink{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 1.2rem 3.5rem;
+    border-radius: 2.5rem;
+}

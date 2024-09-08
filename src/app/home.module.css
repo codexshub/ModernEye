@@ -1,0 +1,304 @@
+.glassCollectionSection{
+    padding: 16rem 0 5rem 0;
+}
+.glassCollecContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.productSubContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glassCollecContainer img:hover{
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+.glassCollecContainer img{
+    width: 17rem;
+    height: auto;
+}
+
+/* CHOOSE YOUR FIT FRAME SECTION START */
+
+.homeSection{
+    background-color: #f5f5f5;
+    padding: 7rem 0 10rem 0;
+
+}
+.homeCardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.homeCardTitle{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+}
+.homeCardText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #8a8888;
+    font-weight: 500;
+}
+.productLink{
+    text-decoration: none;
+}
+.homeCard{
+    border-radius: .5rem;
+    padding: .8rem;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.homeCard:hover .homeCardImg img{
+    transform: scale(1.1);
+    transition: .3s ease;
+}
+.homeCard:hover{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    transition: .3s ease;
+}
+.homeCardImg{
+    background-color: var(--bg);
+    border-radius: .5rem ;
+    overflow: hidden;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeCardImg img{
+    width: 23rem;
+    height: auto;
+}
+
+/* HOME BANNER SECTION START FROM HERE */
+.homeBanner{
+    background-image: url('../components/Image/mainBanner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+}
+#homeBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.homeBtn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    transition: .3s ease;
+}
+.homeBtn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: .2rem solid var(--primary-color);
+    border-radius: 1.5rem;
+    padding: 1.3rem 4rem;
+    margin-top: 26rem;
+}
+     
+/* MODEL BANNER SECTION START FROM HERE */
+.modelBannerHead{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    justify-content: center;
+    display: flex;
+    margin-top: 7rem;
+    border-bottom: .1rem solid var(--primary-color);
+}
+.modelBannerSection{
+    background-image: url('../components/Image/modelBanner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.karanBannerSection{
+    background-image: url('../components/Image/karanjoher.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* FIND YOUR PAIR SECTION START FROM HERE */
+.pairBanner{
+    background-image: url('../components/Image/eye-glassesBanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    height: 40rem;
+    margin-top: 10rem;
+}
+.pairBannerTextContainer{
+    font-size: 8rem;
+    font-weight: 600;
+    color: var(--bg);
+    display: flex;
+    justify-content: center;    
+}
+#pairBannercontent{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.pairBannerBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pairBtn:hover{
+    background-color: var(--secondary-color);
+    color: #286276;
+    transition: .3s ease;   
+}
+.pairBtn{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    border: .1rem solid var(--secondary-color);
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+     border-radius: 1rem;
+}
+
+/* TRYON SHAPE SECTION START  */
+.tryOnSection{
+    margin-top: 5rem;
+}
+.tryOnBanner{
+    background-image: url('../components/Image/tryonBanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 53rem;
+}
+#tryOnHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tryOnSubHeading{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #e10200;
+    letter-spacing: -.1rem;
+    line-height: 6rem;
+}
+.tryOnHeading{
+    font-size: 8rem;
+    font-weight: 700;
+    color: #e10200;
+}
+.tryOnPara{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #e10200;
+    line-height: 3rem;
+    margin-top: 2rem;
+    letter-spacing: .1rem;
+}
+.tryOnBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tryOnBtn:hover{
+    background-color: transparent;
+    transition: .3s ease;
+    color: #000;
+}
+.tryOnBtn{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    background-color: #000;
+    border: .1rem solid #000;
+    padding: 1rem 6rem;
+    margin: 2rem 4rem 0 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* RESPONSIVENESS START FROM HERE */
+@media only screen and (max-width: 767px) {
+    #fitFrameID{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    
+    .getCollectionImg{
+        display: none;
+    }
+    .karanBannerSection{
+        height: 35rem;
+    }  
+    .homeBanner{
+        height: 22rem;
+    }
+    .glassCollectionSection{
+        padding-bottom: 4rem;
+    }
+    .pairBanner{
+        height: 19rem;
+    }
+    .pairBannerTextContainer{
+        font-size: 3.6rem;
+    }
+    .tryOnBanner{
+        height: 25rem;
+    }
+    .tryOnSubHeading{
+        font-size: 2.5rem;
+        line-height: 4.7rem;
+    }
+    .tryOnHeading{
+        font-size: 7rem;
+    }
+    .tryOnPara{
+        font-size: 2rem;
+        line-height: 2rem;
+        margin-top: 1.5rem;
+    }
+    .tryOnBtn{
+        margin: 1rem 3rem 0 0;
+    }
+    .modelBannerSection ,.karanBannerSection{
+        height: 20rem;
+    }
+    .modelBannerHead{
+        margin-top: 5rem;
+    }
+    .homeCardContainer{
+        display: block;
+    }
+    .productSubContainer{
+        margin-top: 1rem;
+    }
+  }
